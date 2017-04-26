@@ -11,6 +11,7 @@
 
 ##### 1-2、初始化bower并安装所需文件
 1、`bower install react --save`
+
 2、`bower install babel-standalone --save`
 
 ##### 1-3、HTML模板
@@ -43,6 +44,7 @@
 * babel.min.js:是将JSX语法转为JavaScript语法
 
 在浏览器中打开index.html页面，可看到如下结果:
+
 ![](images/demo1-helloword.png)
 
 ##### 1-4、引入jsx文件
@@ -132,6 +134,7 @@ module.exports = {
 };
 ```
 4、新建app/main.js和product.js
+
 main.js
 
 ```js
@@ -186,4 +189,4 @@ app.listen(9090, "localhost", function(err) {
 });
 ```
 
-然后在浏览器中输入http://localhost:9090/build/即可看到结果
+然后在浏览器中输入http://localhost:9090/build即可看到结果
